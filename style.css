@@ -17,6 +17,7 @@ body{
 	text-align:center;
 	margin-top: 5rem;
 	color: white;
+    display: relative;
 }
 
 label{
@@ -34,4 +35,9 @@ button{
 #title{
 	text-transform: uppercase;	
 	font-variant: small-caps;
+}
+footer{
+    display: absolute;
+    bottom: 0;
+    left: 50%;
 }

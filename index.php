@@ -66,6 +66,8 @@
 			?>
 			</div>
 			
+    <footer><p>&copy; 2021 | D. McDaniel</p></footer>
+    
     </div>
 
     <script type="text/javascript" src="jquery.min.js"></script>
