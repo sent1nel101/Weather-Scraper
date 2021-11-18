@@ -21,7 +21,7 @@
 
 		if (sizeof($secondPageArray) > 1) {
 			$weather = $secondPageArray[0];
-			$successMessage = '<div class="alert alert-warning" role="alert"><h5 class="title">The Weather in '.$cityUppercase.'</h5>'.$weather.'</div>';
+			$successMessage = '<div class="alert alert-warning" role="alert"><h5 class="title">The 3-Day Forecast For '.$cityUppercase.'</h5>'.$weather.'</div>';
 		} else {
 			$failMessage1 = '<div class="alert alert-danger" role="alert"><h5>No city could be found by that name.</h5></div>';
 		}
